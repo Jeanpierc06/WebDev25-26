@@ -26,6 +26,7 @@ html,body{
    bottom:0px;
  }
  #story{
+  display: block;
    padding:20px;
    font-family:Comic Sans MS;
    display: none;

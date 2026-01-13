@@ -26,6 +26,8 @@ html,body{
 .gallery div{
   overflow:hidden;
   padding:20px;
+  border-radius: 10px;
+  border-color: red;
 }
 .gallery img{
   height:200px;
