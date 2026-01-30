@@ -3,6 +3,10 @@
       2) Perform the necessary calculations
       3) Display the results in the appropriate element
 */
+function showarea(){
+      let l=parseFloat()
+} 
+
 function recArea(){
 
 }
