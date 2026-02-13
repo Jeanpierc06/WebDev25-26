@@ -14,3 +14,32 @@ Guideline:
 Use past examples, classwork and practicals to assist you in completing this practical.
 */
 
+function BMI(){
+       let weight = parseInt(document.getElementById("weight").value;)
+       let height = parseInt(document.getElementById("height").value;)
+       let output = parseInt(document.getElementById("output").value;)
+
+       let message = ""
+       let output = Math.pow(weight / height)
+
+}
+
+       if (weight > 18.5 && < 24.9){
+              let message = "healthy" 
+               document.getElementById("healthy")
+       }
+       if (weight < 18.5){
+              let message = "underweight"
+              document.getElementById("underweight")
+       }
+
+       if (weight > 30){
+
+              let message = "obese"
+              document.getElementById("obese")
+       }
+
+       if (weight > 25 && < 29.99){
+              let message = "overweight"
+              document.getElementById("overweight")
+       }

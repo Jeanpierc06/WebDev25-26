@@ -14,12 +14,28 @@ function name(){
 
 /* Challenge 2:  Create the function for Challenge 1 scenario */
 
+function calculate(){
+  let width = parseFloat(document.getElementById("width").value)
+  let length = parseFloat(document.getElementById("length").value)
+  let output = (document.getElementById("output"))
+  let message = ""
 
+  let area = Math.pow(length * width)
+}
+
+if (width == 0 || length == 0)
+  message = "Inappropriate measurement"
+else{
+  message = "the area is $area"
+}
 
 /* Challenge 3:  Complete the function for Pets Challenge on pets.html.  
 1) Review the HTML for the UI.  Remember dropdown boxes are just input.
 2) You will need to write HTML as part of the output.  
    For example, output.innerHTML = `<input src="pic.png">` would place the image in the <div>*/
 function pet(){
+let a = document.getElementById("animal").value;
+let e = document.getElementById("emotion").value;
+let output = document.getElementById("output").value;
 
 }
