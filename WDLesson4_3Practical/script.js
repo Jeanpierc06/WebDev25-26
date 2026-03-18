@@ -26,20 +26,20 @@ function BMI(){
 
        if (weight > 18.5 && < 24.9){
               let message = "healthy" 
-               document.getElementById("healthy")
+               filename = "healthyweight.png"
        }
        if (weight < 18.5){
               let message = "underweight"
-              document.getElementById("underweight")
+              filename = "underweight.png"
        }
 
        if (weight > 30){
 
               let message = "obese"
-              document.getElementById("obese")
+              filename = "obeseweight.png"
        }
 
        if (weight > 25 && < 29.99){
               let message = "overweight"
-              document.getElementById("overweight")
+              filename = "overweight.png"
        }
