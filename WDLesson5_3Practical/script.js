@@ -29,12 +29,13 @@ build += '<table>
                                 <td>${A}.toFixed(2)</td>
                                         
                 </tr>'
-        
+}
         }
 build += "</table>";
-        
+
 output.innerHTML = build;
-}
+
+
 /* Challenge Bonus: Allow the user to enter n.  This will require you to modify,
         1) Retrieve the value of n from the user.
         2) Modify the formula to incorporate the value of n
